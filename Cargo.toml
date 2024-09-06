@@ -1,0 +1,12 @@
+[package]
+name = "getrandom"
+version = "0.2.8"
+edition = "2018"
+authors = ["The Rand Project Developers", "Datachain, Inc."]
+license = "MIT OR Apache-2.0"
+description = "A small library for retrieving random data from system source using RDRAND"
+repository = "https://github.com/datachainlab/getrandom-sgx-lite"
+categories = ["os", "no-std"]
+
+[dependencies]
+sgx_trts = { rev = "v1.1.6", git = "https://github.com/apache/incubator-teaclave-sgx-sdk" }
