@@ -10,3 +10,6 @@ categories = ["os", "no-std"]
 
 [dependencies]
 sgx_trts = { rev = "v1.1.6", git = "https://github.com/apache/incubator-teaclave-sgx-sdk" }
+
+[features]
+std = []
